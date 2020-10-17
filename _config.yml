@@ -1,12 +1,1 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-
-  <body>
-    <h1>Welcome to my website!</h1>
-    <h3>What is the theme</h3>
-    <p>content</p>
-  </body>
-
-</html>
+theme: jekyll-theme-slate
