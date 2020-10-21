@@ -19,6 +19,18 @@ div {
     height: 100px;
     margin-top: 20px;
 }
+.selection-btn-right{
+  margin: 0;
+  padding: 5px;
+  margin-left: auto;
+  color:white;
+  background-color:rgb(4, 50, 102);
+  height: 44px;
+  width: 100px;
+  left: 50%;
+  font-size: medium;
+}
+
 .selection-btn{
   padding: 5px;
   color:white;
@@ -31,18 +43,6 @@ div {
   font-size: medium;
 }
 
-/*
-.selection-btn{
-  padding: 5px;
-  color:white;
-  background-color:rgb(4, 50, 102);
-  border: 1px solid whitesmoke;
-  height: 44px;
-  width: 100px;
-  margin: auto;
-  left: 50%;
-}
-*/
 /*.banner-image{
   width: 100%;
   background-image: url(https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/Dark-Blue-Header.jpg);
