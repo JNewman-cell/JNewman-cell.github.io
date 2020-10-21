@@ -43,6 +43,41 @@ div {
   font-size: medium;
 }
 
+.navbar{
+  width: 100%;
+  background-color: rgb(4, 50, 102);
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 30%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+.navbar a:hover{
+  background-color: rgb(0, 162, 255);
+  color: black;
+}
+
+.navbar a.active{
+  background-color: cadetblue;
+}
+
+@media screen and (max-width: 500px){
+  .navbar a{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
 /*.banner-image{
   width: 100%;
   background-image: url(https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/Dark-Blue-Header.jpg);
