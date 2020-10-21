@@ -44,9 +44,10 @@ div {
 }
 
 .navbar{
-  width: 99%;
+  width: 100%;
   background-color: rgb(4, 50, 102);
   overflow: auto;
+  margin: auto;
 }
 
 /* Navigation links */
