@@ -2,6 +2,9 @@ html,
 body{
     font-family: Bahnschrift;
 }
+div {
+  padding: 10px 0;
+}
 #banner-title{
     font-size: 40px;
     font-style: normal;
