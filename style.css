@@ -2,34 +2,39 @@ html,
 body{
     font-family: Bahnschrift;
 }
-.banner-title{
+#banner-title{
     color: rgb(0, 140, 255);
     font-size: 40px;
     font-style: normal;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
 }
-.selection-btn-left{
+.selection-btn{
   padding: 5px;
   color:white;
   background-color:rgb(4, 50, 102);
   border: 1px solid whitesmoke;
   height: 44px;
   width: 100px;
+  margin: auto;
+  left: 50%;
+  font-size: medium;
 }
-.selection-btn-middle{
+/*
+.selection-btn{
   padding: 5px;
-  margin-left: 0;
   color:white;
   background-color:rgb(4, 50, 102);
   border: 1px solid whitesmoke;
   height: 44px;
   width: 100px;
+  margin: auto;
+  left: 50%;
 }
-.selection-btn-right{
-  padding: 5px;
-  margin-left: 0;
-  color:white;
-  background-color:rgb(4, 50, 102);
-  border: 1px solid whitesmoke;
-  height: 44px;
-  width: 100px;
+*/
+.banner-image{
+  width: 100%;
+  background-image: url(https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/Dark-Blue-Header.jpg);
+  height: 100px;
 }
