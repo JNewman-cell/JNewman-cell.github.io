@@ -3,12 +3,18 @@ body{
     font-family: Bahnschrift;
 }
 #banner-title{
-    color: rgb(0, 140, 255);
     font-size: 40px;
     font-style: normal;
     margin: auto;
-    text-align: center;
+    text-align: right;
     width: fit-content;
+    padding-top: 40px;
+    width: 100%;
+    /*
+    background: url(https://vectr.com/tmp/b5wFtuAH4/a3Ozpg7Zwm.svg?width=640&height=640&select=a3Ozpg7Zwmpage0);
+    */
+    height: 100px;
+    margin-top: 20px;
 }
 .selection-btn{
   padding: 5px;
@@ -21,6 +27,7 @@ body{
   left: 50%;
   font-size: medium;
 }
+
 /*
 .selection-btn{
   padding: 5px;
@@ -33,8 +40,9 @@ body{
   left: 50%;
 }
 */
-.banner-image{
+/*.banner-image{
   width: 100%;
   background-image: url(https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/Dark-Blue-Header.jpg);
   height: 100px;
 }
+*/
