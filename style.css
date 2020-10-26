@@ -1,7 +1,10 @@
 html,
 body{
-    font-family: Bahnschrift;
+  font-family: Bahnschrift;
+  display: flex;
 }
+
+img {display:block}
 
 .flexbox{
   display: flex;
@@ -14,10 +17,6 @@ body{
   text-align: right;
   height: 50px;
   flex:50%;
-}
-
-#banner-picture{
-
 }
 
 @media screen and (max-width: 500px){
