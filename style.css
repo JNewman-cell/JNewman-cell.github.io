@@ -13,9 +13,6 @@ div {
     width: fit-content;
     padding-top: 40px;
     width: 100%;
-    /*
-    background: url(https://vectr.com/tmp/b5wFtuAH4/a3Ozpg7Zwm.svg?width=640&height=640&select=a3Ozpg7Zwmpage0);
-    */
     height: 100px;
     margin-top: 20px;
 }
@@ -44,22 +41,21 @@ div {
 }
 
 .navbar{
-  width: 100%;
+  display: flex;
   background-color: rgb(4, 50, 102);
-  overflow: auto;
-  margin: auto;
 }
 
-/* Navigation links */
+/* Navigation links
 .navbar a {
   float: left;
   padding: 12px;
   color: white;
   text-decoration: none;
   font-size: 17px;
-  width: 33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  text-align: center; /* If you want the text to be centered */
+  width: 33%;  Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. 
+  text-align: center;  If you want the text to be centered 
 }
+*/
 
 .navbar a:hover{
   background-color: rgb(0, 162, 255);
