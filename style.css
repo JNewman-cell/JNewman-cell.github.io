@@ -11,6 +11,7 @@ img {display:block}
 }
 
 #banner-title{
+  display: flex;
   font-size: 40px;
   font-style: normal;
   margin-top: 30px;
