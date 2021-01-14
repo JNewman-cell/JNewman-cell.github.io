@@ -1,73 +1,26 @@
 html,
 body{
-    font-family: Bahnschrift;
-}
-div {
-  padding: 10px 0;
-}
-#banner-title{
-    font-size: 40px;
-    font-style: normal;
-    margin: auto;
-    text-align: right;
-    width: fit-content;
-    padding-top: 40px;
-    width: 100%;
-    height: 100px;
-    margin-top: 20px;
-}
-.selection-btn-right{
-  margin: 0;
-  padding: 5px;
-  margin-left: auto;
-  color:white;
-  background-color:rgb(4, 50, 102);
-  height: 44px;
-  width: 100px;
-  left: 50%;
-  font-size: medium;
-}
-
-.selection-btn{
-  padding: 5px;
-  color:white;
-  background-color:rgb(4, 50, 102);
-  border: 1px solid whitesmoke;
-  height: 44px;
-  width: 100px;
-  margin: auto;
-  left: 50%;
-  font-size: medium;
-}
-
-.navbar{
+  font-family: Bahnschrift;
   display: flex;
-  background-color: rgb(4, 50, 102);
 }
 
-/* Navigation links
-.navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  width: 33%;  Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. 
-  text-align: center;  If you want the text to be centered 
-}
-*/
+img {display:block}
 
-.navbar a:hover{
-  background-color: rgb(0, 162, 255);
-  color: black;
+.flexbox{
+  display: flex;
 }
 
-.navbar a.active{
-  background-color: cadetblue;
+#banner-title{
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 30px;
+  text-align: right;
+  height: 50px;
+  flex:50%;
 }
 
 @media screen and (max-width: 500px){
-  .navbar a{
+  .li a{
     float: none;
     display: block;
     width: 100%;
@@ -75,9 +28,38 @@ div {
   }
 }
 
-/*.banner-image{
-  width: 100%;
-  background-image: url(https://www.microsoft.com/en-us/research/wp-content/uploads/2017/06/Dark-Blue-Header.jpg);
-  height: 100px;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(4, 50, 102);
+  position: -webkit-sticky; /*Safari */
+  position: sticky;
+  top: 0;
 }
-*/
+
+li{
+  float: left;
+}
+
+a{
+  display: block;
+  padding: 8px;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color:rgb(3, 173, 216);
+}
+
+.active{
+  background-color: rgb(3, 173, 216);
+}
