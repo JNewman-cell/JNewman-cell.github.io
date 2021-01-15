@@ -16,8 +16,6 @@ img {display:block}
   flex:50%;
 }
 
-
-
 @media screen and (max-width: 500px){
   .li a{
     float: none;
