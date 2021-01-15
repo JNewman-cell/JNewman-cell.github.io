@@ -2,16 +2,12 @@ html,
 body{
   font-family: Bahnschrift;
   display: flex;
+  flex: auto;
 }
 
 img {display:block}
 
-.flexbox{
-  display: flex;
-}
-
 #banner-title{
-  display: flex;
   font-size: 40px;
   font-style: normal;
   margin-top: 30px;
@@ -19,6 +15,8 @@ img {display:block}
   height: 50px;
   flex:50%;
 }
+
+
 
 @media screen and (max-width: 500px){
   .li a{
