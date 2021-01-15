@@ -1,62 +1,31 @@
 html,
 body{
-  font-family: Bahnschrift;
-  display: flex;
-  flex: auto;
+  font-family: Georgia;
 }
 
-img {display:block}
-
-#banner-title{
-  font-size: 40px;
-  font-style: normal;
-  margin-top: 30px;
-  text-align: right;
-  height: 50px;
-  flex:50%;
-}
-
-@media screen and (max-width: 500px){
-  .li a{
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color:rgb(4, 50, 102);
-  position: -webkit-sticky; /*Safari */
-  position: sticky;
-  top: 0;
-}
-
-li{
-  float: left;
+nav{
+  background-color: rgb(0, 0, 121);
+  padding: 0 15px;
 }
 
 a{
-  display: block;
-  padding: 8px;
-}
-
-li a{
-  display: block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover{
-  background-color:rgb(3, 173, 216);
+a:hover{
+  color: white;
+  background-color: rgb(4, 116, 131);
 }
 
-.active{
-  background-color: rgb(3, 173, 216);
+.navitem{
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Name{
+  font-family: Helvetica;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
