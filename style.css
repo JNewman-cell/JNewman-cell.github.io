@@ -22,18 +22,20 @@ a{
 }
 
 a:hover{
-  color: white;
-  background-color: rgb(4, 116, 131);
+  color: rgb(0, 195, 255);
 }
 
 .navitem{
   padding: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: Arial;
+  font-size: medium;
 }
 
 .Name{
   font-family: Helvetica;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: medium;
 }
