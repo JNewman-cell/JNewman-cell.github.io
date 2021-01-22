@@ -17,7 +17,7 @@ nav{
 a{
   color: rgb(48, 48, 53);
   text-decoration: none;
-  transition: color .5s
+  transition: color .4s;
 }
 
 a:hover{
