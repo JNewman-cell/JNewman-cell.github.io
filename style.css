@@ -5,7 +5,7 @@ html,
   margin: 0;
 }
 
-body{
+h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -16,6 +16,7 @@ nav{
 
 a{
   color: rgb(48, 48, 53);
+  background-color: white;
   text-decoration: none;
   transition: color .4s;
 }
