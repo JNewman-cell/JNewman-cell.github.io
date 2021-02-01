@@ -80,6 +80,7 @@ body {
 
   .Name{
     order: 0;
+    padding: 8px 10px 8px 0px;
   }
 
   .navitem{
@@ -87,5 +88,7 @@ body {
     position: relative;
     display: block;
     width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
