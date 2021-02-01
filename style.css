@@ -22,7 +22,7 @@ a{
 }
 
 a:hover{
-  color: rgb(0, 195, 255);
+  color: rgb(2, 179, 233);
 }
 
 .navitem{
@@ -73,5 +73,14 @@ body {
     align-items: flex-start;
     flex-wrap: nowrap;
     background: none;
+  }
+  .Name{
+    order: 0;
+  }
+  .navitem{
+    order: 1;
+    position: relative;
+    display: block;
+    width: auto;
   }
 }
