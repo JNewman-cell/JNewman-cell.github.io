@@ -70,7 +70,7 @@ body {
   color: rgb(48, 48, 53);
 }
 
-/*Mobile Navigation*/
+/*Mobile Navigation
 .navbar{
   display: flex;
   flex-wrap: wrap;
@@ -91,4 +91,4 @@ body {
 .navitem{
   font-size: 20px;
   order: 2;
-}
+}*/
