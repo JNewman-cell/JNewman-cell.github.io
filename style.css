@@ -54,10 +54,12 @@ body {
 
   .Name{
     order: 0;
+    justify-content: flex-start;
   }
 
   .navitem{
     order: 1;
+    justify-content: flex-end;
     position: relative;
     display: block;
     width: auto;
