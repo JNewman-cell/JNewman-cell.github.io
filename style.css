@@ -8,6 +8,7 @@ html,
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   align-content: center;
+  margin: 20px;
 }
 
 nav{
