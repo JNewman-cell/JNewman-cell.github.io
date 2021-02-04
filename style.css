@@ -14,7 +14,6 @@ h1{
 
 nav{
   background-color: rgb(255, 255, 255);
-  padding: 10 15px;
 }
 
 a{
@@ -35,8 +34,7 @@ a:hover{
 }
 
 .Name{
-  padding: 10px 10px 10px 0px;
-  margin-left: 10px;
+  padding: 10px 10px 10px 50px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,11 +49,13 @@ body {
     align-items: flex-end;
     flex-wrap: nowrap;
     background: none;
+    -webkit-box-shadow: 0 4px 6px 0 #999;
+    -moz-box-shadow: 0 4px 6px 0 #999;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.2);
   }
 
   .Name{
     flex: 6;
-    align-self: flex-start;
   }
 
   .navitem{
