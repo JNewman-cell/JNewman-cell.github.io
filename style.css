@@ -1,4 +1,6 @@
 html,
+
+/* General Formatting */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,13 +8,36 @@ html,
 }
 
 h1{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  align-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 50px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
+
+.myFace{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.aboutParagraph{
+  align-content: center;
+  align-self: center;
+  padding-top: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/* Navigation Bar */
 nav{
   background-color: rgb(255, 255, 255);
 }
@@ -40,11 +65,7 @@ a:hover{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 16px;
-}
-
+/* Desktop Navigation */
 @media all and (min-width: 960px){
   .navbar{
     align-items: flex-end;
@@ -65,10 +86,6 @@ body {
     display: block;
     width: auto;
   }
-}
-
-.Name:hover{
-  color: rgb(48, 48, 53);
 }
 
 /*Mobile Navigation*/
