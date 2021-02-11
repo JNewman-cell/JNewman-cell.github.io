@@ -27,13 +27,10 @@ h1{
 }
 
 .aboutParagraph{
-  align-content: center;
-  align-self: center;
-  padding-top: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
   font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 60%;
 }
 
