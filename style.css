@@ -26,6 +26,15 @@ h1{
   margin-bottom: 40px;
 }
 
+.indexParagraph{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 40px;
+  font-size: 20px;
+  margin: auto;
+  width: 70%;
+  line-height: 1.8;
+}
+
 .aboutParagraph{
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 40px;
