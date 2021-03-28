@@ -18,9 +18,15 @@ h1{
 }
 
 .linkedInLogo{
-  margin-top: 40px;
-  margin-left: 400px;
-  width: auto;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.otherLogo{
+  flex:1;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .myFace{
@@ -46,6 +52,7 @@ h1{
   font-size: 20px;
   margin: auto;
   width: 70%;
+  line-height: 1.8;
 }
 
 .contactIntroduction{
@@ -77,6 +84,14 @@ a:hover{
   padding: 10px 10px 10px 0px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+}
+
+.logoContainer{
+  display:flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-top: 40px;
 }
 
 .Name{
