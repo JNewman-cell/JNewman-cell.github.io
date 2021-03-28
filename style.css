@@ -17,6 +17,11 @@ h1{
   margin-bottom: 40px;
 }
 
+.linkedInLogo{
+  margin-top: 40px;
+  margin-left: 400px;
+  width: auto;
+}
 
 .myFace{
   display: block;
@@ -41,6 +46,15 @@ h1{
   font-size: 20px;
   margin: auto;
   width: 70%;
+}
+
+.contactIntroduction{
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-bottom:20px;
+  margin-left: 400px;
+  width: auto;
 }
 
 /* Navigation Bar */
